@@ -2,32 +2,178 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.landing {
+  background: linear-gradient(rgba(0, 0, 0, 0.427), rgba(0, 0, 0, 0.51)),
+    url('https://res.cloudinary.com/karuna-wedding-org/image/upload/v1715852271/kelvinSherrish/AFI04771_vqucs1.jpg');
+  background-size: cover; /* or contain depending on what you want */
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.bride-groom-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.427), rgba(0, 0, 0, 0.51)),
+    url('https://res.cloudinary.com/karuna-wedding-org/image/upload/v1715852154/kelvinSherrish/AFI04559_ebagmb.jpg');
+  background-size: cover; /* or contain depending on what you want */
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.venue {
+  background: #8da090;
+  background-size: cover; /* or contain depending on what you want */
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.427), rgba(0, 0, 0, 0.4)),
+    url('https://res.cloudinary.com/karuna-wedding-org/image/upload/v1715852280/kelvinSherrish/AFI04806_clnnd2.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 600px) {
+  .landing {
+    background: linear-gradient(rgba(0, 0, 0, 0.427), rgba(0, 0, 0, 0.51)),
+      url('https://res.cloudinary.com/karuna-wedding-org/image/upload/v1715852154/kelvinSherrish/AFI03505_ktrvwf.jpg');
+    background-size: cover; /* or contain depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .header {
+    background: linear-gradient(rgba(0, 0, 0, 0.427), rgba(0, 0, 0, 0.4)),
+      url('https://res.cloudinary.com/karuna-wedding-org/image/upload/v1715852195/kelvinSherrish/AFI04457_nyzqoq.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .bride-groom-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.427), rgba(0, 0, 0, 0.51)),
+      url('https://res.cloudinary.com/karuna-wedding-org/image/upload/v1715852154/kelvinSherrish/AFI04559_ebagmb.jpg');
+    background-size: cover; /* or contain depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.wishes-box {
+  background: linear-gradient(rgba(61, 61, 61, 0.827), rgba(71, 71, 71, 0.8)),
+    url('https://res.cloudinary.com/karuna-wedding-org/image/upload/v1715852277/kelvinSherrish/AFI04791_ubnzzq.jpg');
+  background-size: cover; /* or contain depending on what you want */
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.our-story-container {
+  position: relative;
+  background: linear-gradient(rgba(14, 13, 13, 0.727), rgba(14, 13, 13, 0.7)),
+    url('https://res.cloudinary.com/karuna-wedding-org/image/upload/v1654248845/harrisYohana/DSC03161-min_n39nq1.jpg')
+      no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+.text-shadow {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.text-shadow-md {
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.text-shadow-lg {
+  text-shadow: 0 15px 30px rgba(0, 0, 0, 0.11), 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.text-shadow-none {
+  text-shadow: none;
+}
+
+.thankyou-container {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.427), rgba(0, 0, 0, 0.51)),
+    url('https://res.cloudinary.com/karuna-wedding-org/image/upload/v1715852246/kelvinSherrish/AFI04563_tyk2sv.jpg')
+      no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.livestream-container {
+  position: relative;
+  background: linear-gradient(rgba(14, 13, 13, 0.727), rgba(14, 13, 13, 0.7)),
+    url('https://res.cloudinary.com/karuna-wedding-org/image/upload/v1715852181/kelvinSherrish/AFI03627_hfdglz.jpg')
+      no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.slick-slide {
+  padding: 0 15px;
+}
+
+.slick-list {
+  margin: 0 2em;
+}
+
+.slick-initialized {
+  overflow: hidden;
+}
+
+.divider {
+  display: flex;
+}
+.divider:before,
+.divider:after {
+  content: '';
+  flex: 1;
+}
+.razor:before,
+.razor:after {
+  height: 3px;
+  box-shadow: 0 -5px 0 #d9cab3, 0 5px 0 #d9cab3;
+  border-width: 0;
+  margin: 0px 50px;
+}
+.line {
+  align-items: center;
+}
+.line:before,
+.line:after {
+  height: 10px;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .livestream-container {
+    background-size: cover;
+    background-attachment: scroll;
+  }
+
+  .thankyou-container {
+    background-size: cover;
+    background-attachment: scroll;
+  }
+
+  .our-story-container {
+    background-size: cover;
+    background-attachment: scroll;
   }
 }
