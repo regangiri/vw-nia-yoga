@@ -62,6 +62,32 @@ export const addRSVP = async (
     };
 
     const { error } = await supabase
+      .from('rsvp_kelvinsherrish_matrimony')
+      .insert(addGuest);
+
+    if (error) {
+      throw error;
+    }
+  } catch (error: any) {
+    alert(error.message);
+  }
+};
+export const addRSVPReception = async (
+  name: string,
+  telephone: string,
+  total_guest: number,
+  confirmation: any
+) => {
+  try {
+    const addGuest = {
+      name,
+      telephone,
+      total_guest,
+      confirmation,
+      created_at: new Date(),
+    };
+
+    const { error } = await supabase
       .from('rsvp_kelvinsherrish_reception')
       .insert(addGuest);
 

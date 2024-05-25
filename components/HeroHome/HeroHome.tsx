@@ -58,14 +58,16 @@ export default function HeroHome() {
               }}
             >
               <h1 className="text-sm tracking-tight md:text-xl">
-                <span className="block xl:inline font-serif tracking-wider">
+                <span className="block xl:inline font-baskervville tracking-wider">
                   Wedding Invitation
                 </span>
               </h1>
-              <h1 className="font-italiano text-5xl lg:text-6xl py-4 text-secondary text-shadow-lg">
+              <h1 className="font-baskervville text-5xl lg:text-6xl py-4 text-secondary text-shadow-lg">
                 Kelvin & Sherrish
               </h1>
-              <p className="font-serif">27 July 2024 | 18:30 WIB (GMT +7)</p>
+              <p className="font-baskervville">
+                27 July 2024 | 18:30 WIB (GMT +7)
+              </p>
 
               <div className="mt-5  max-w-md mx-auto sm:flex sm:justify-center justify-center md:mt-8 hover:cursor-pointer">
                 <div className="rounded-md  flex justify-center">
@@ -75,7 +77,9 @@ export default function HeroHome() {
                   >
                     <span className="md:w-full lg:w-full text-center w-64 flex items-center space-x-2 justify-center px-8 py-3  border border-secondary bg-secondary  text-base font-medium rounded-md text-primary  hover:backdrop-blur-xl hover:bg-transparent hover:text-secondary md:py-2 md:text-lg md:px-10">
                       <Clock weight="fill" size={24} />
-                      <span className="hover:cursor-pointer">Remind me</span>
+                      <span className="hover:cursor-pointer font-baskervville font-bold">
+                        Remind me
+                      </span>
                     </span>
                   </Link>
                 </div>

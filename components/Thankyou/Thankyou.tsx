@@ -61,18 +61,18 @@ function Thankyou() {
   }, [inView]);
 
   return (
-    <div className="text-center text-black bg-opacity-100 flex flex-col  items-center py-16 thankyou-container">
+    <div className="text-center text-black bg-opacity-100 flex flex-col items-center py-16 thankyou-container">
       <div>
         <div ref={ref} className="px-2">
           <motion.h1
             animate={titleAnimation}
-            className="text-4xl lg:text-6xl text-secondary font-italiano mb-10 font-semibold"
+            className="text-4xl lg:text-6xl text-secondary font-baskervville mb-10 font-semibold"
           >
             Thank You
           </motion.h1>
           <motion.p
             animate={thankyouTextAnimation}
-            className="my-5 md:my-2 text-base md:text-xl font-serif"
+            className="my-5 md:my-2 text-base md:text-xl font-sans text-white"
           >
             Your presence and blessings would bring us great honor and joy as we
             begin our new chapter.
@@ -81,7 +81,7 @@ function Thankyou() {
             animate={iconAnimation}
             className="flex items-center justify-center flex-col"
           >
-            <div className="relative w-64 h-64 items-center">
+            <div className="relative w-64 h-96 items-center">
               <Image
                 src="/images/ks-logo-white.png"
                 fill

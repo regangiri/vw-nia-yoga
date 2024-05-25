@@ -111,7 +111,7 @@ export default function Guestbook() {
           <div className="max-w-lg mx-auto lg:max-w-none">
             <motion.h1
               animate={titleAnimation}
-              className="text-4xl font-typography font-semibold text-secondary pb-10"
+              className="text-4xl font-baskervville font-semibold text-secondary pb-10"
             >
               Guestbook
             </motion.h1>

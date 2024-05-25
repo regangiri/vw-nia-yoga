@@ -92,9 +92,6 @@ function Livestream() {
             <p className="pb-5">10:00 WIB - Finish</p>
 
             <p>Gereja Baptis Indonesia Kebayoran</p>
-            <p className="pb-6">
-              Jl. Tirtayasa Raya No.1, Kebayoran Baru, Jakarta Selatan
-            </p>
           </motion.div>
         </div>
         <motion.div

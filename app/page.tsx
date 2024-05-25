@@ -25,13 +25,6 @@ export default function Home() {
   if (isLanding) {
     return (
       <>
-        <Head>
-          <title>Kelvin Sherrish Holy Matrimony</title>
-          <meta
-            name="viewport"
-            content="initial-scale=1.0, width=device-width"
-          />
-        </Head>
         <Landing btnAction={handleClick} />
       </>
     );
@@ -43,7 +36,7 @@ export default function Home() {
       <HeroHome />
       <BrideGroom />
       <Rsvp />
-      <Livestream />
+      {/* <Livestream /> */}
       <Gift />
       <Guestbook />
       <ImageGallery />

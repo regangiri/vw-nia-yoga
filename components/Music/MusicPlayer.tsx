@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import useMusicPlayer from './hooks';
 
 const Pause = () => {
   return (
@@ -45,19 +46,7 @@ const Play = () => {
 };
 
 export default function MusicPlayer() {
-  const [audio] = useState<any>(
-    typeof Audio !== 'undefined' && new Audio('/musics/lovecanbe.mp3')
-  );
-  const [isPlaying, setIsPlaying] = useState(true);
-
-  useEffect(() => {
-    isPlaying ? audio.play() : audio.pause();
-    audio.loop = true;
-  }, [isPlaying, audio]);
-
-  const handleChange = () => {
-    setIsPlaying(!isPlaying);
-  };
+  const { audio, handleChange, isPlaying, setIsPlaying } = useMusicPlayer();
 
   return (
     <div className="fixed bottom-2	right-3 text-white">

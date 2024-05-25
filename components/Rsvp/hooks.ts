@@ -13,11 +13,17 @@ const useRsvp = () => {
   ];
   const [showModal, setShowModal] = useState(false);
   const [name, setName] = useState('');
+  const [receptionName, setReceptionName] = useState('');
   const [telephone, setTelephone] = useState('');
+  const [receptionTelephone, setReceptionTelephone] = useState('');
   const [totalGuest, setTotalGuest] = useState(jumlahOrang[0]);
+  const [receptionTotalGuest, setReceptionTotalGuest] = useState(
+    jumlahOrang[0]
+  );
   const [confirmation, setConfirmation] = useState(options[0]);
-  // const [pemberkatanRsvp, setPemberkatanRsvp] = useState('');
-  // const [resepsiRsvp, setResepsiRsvp] = useState('');
+  const [receptionConfirmation, setReceptionConfirmation] = useState(
+    options[0]
+  );
 
   return {
     options,
@@ -32,6 +38,14 @@ const useRsvp = () => {
     setTotalGuest,
     confirmation,
     setConfirmation,
+    receptionName,
+    setReceptionName,
+    receptionTelephone,
+    setReceptionTelephone,
+    receptionTotalGuest,
+    setReceptionTotalGuest,
+    receptionConfirmation,
+    setReceptionConfirmation,
   };
 };
 

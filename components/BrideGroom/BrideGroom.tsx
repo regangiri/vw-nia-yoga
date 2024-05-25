@@ -67,13 +67,13 @@ export default function BrideGroom() {
         <div className="flex flex-col items-center py-16 px-4 ">
           <motion.h1
             animate={brideGroomLayout}
-            className="ig-target font-italiano tracking-wider text-4xl lg:text-6xl text-secondary font-semibold"
+            className="ig-target font-baskervville tracking-wider text-4xl lg:text-6xl text-secondary font-semibold"
           >
             Bride & Groom
           </motion.h1>
           <motion.span
             animate={brideGroomLayout}
-            className="text-center text-md md:text-base pt-8 font-serif"
+            className="text-center text-md md:text-base pt-8 font-baskervville"
           >
             <p>
               Love is patient, love is kind. It does not envy, it does not
@@ -83,7 +83,7 @@ export default function BrideGroom() {
           </motion.span>
           <motion.span
             animate={brideGroomLayout}
-            className="text-center text-md md:text-base pt-2 font-serif"
+            className="text-center text-md md:text-base pt-2 font-baskervville"
           >
             <span>1 Corinthians 13:4, 7 NIV</span>
           </motion.span>
@@ -105,10 +105,10 @@ export default function BrideGroom() {
                   className="rounded-full"
                 />
               </div>
-              <h1 className="font-typography pb-1 text-secondary font-medium text-3xl">
+              <h1 className="font-baskervville pb-1 text-secondary font-medium text-3xl">
                 Kelvin Christiandy Sutiono
               </h1>
-              <p className="font-serif text-sm md:text-sm">
+              <p className="font-baskervville text-sm md:text-sm">
                 Son of Mr. Tommy Sutiono & Mrs. Lee Kuan
               </p>
             </motion.div>
@@ -128,10 +128,10 @@ export default function BrideGroom() {
                 />
               </div>
 
-              <h1 className="font-typography pb-1 font-medium text-3xl text-secondary">
+              <h1 className="font-baskervville pb-1 font-medium text-3xl text-secondary">
                 Sherrish Serafinna Tanudirdjo
               </h1>
-              <p className="font-serif text-sm md:text-sm">
+              <p className="font-baskervville text-sm md:text-sm">
                 Daughter of Mr. Budianto Tanudirdjo & Mrs. Lindy Rustandi
               </p>
             </motion.div>
