@@ -57,7 +57,7 @@ export default function HeroHome() {
                 },
               }}
             >
-              <h1 className="text-sm tracking-tight md:text-xl">
+              <h1 className="text-sm tracking-tight md:text-xl font-bold">
                 <span className="block xl:inline font-baskervville tracking-wider">
                   Wedding Invitation
                 </span>
@@ -65,7 +65,7 @@ export default function HeroHome() {
               <h1 className="font-baskervville text-5xl lg:text-6xl py-4 text-secondary text-shadow-lg">
                 Kelvin & Sherrish
               </h1>
-              <p className="font-baskervville">
+              <p className="font-baskervville text-lg font-bold tracking-wider">
                 27 July 2024 | 18:30 WIB (GMT +7)
               </p>
 

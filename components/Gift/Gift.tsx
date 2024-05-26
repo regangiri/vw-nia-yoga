@@ -74,7 +74,7 @@ const Gift = () => {
       <div className="flex flex-col justify-center text-center">
         <h1
           //   animate={titleAnimation}
-          className="text-4xl lg:text-6xl font-baskervville font-semibold drop-shadow-sm drop text-secondary mb-8"
+          className="text-4xl lg:text-6xl font-baskervville font-semibold drop-shadow-sm drop text-[#816f5A] mb-8"
         >
           Gift
         </h1>

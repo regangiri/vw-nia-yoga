@@ -139,8 +139,8 @@ export default function ImageGallery() {
       ref={ref}
       className="w-full bg-palewhite pb-6 overlflow-hidden text-md text-center flex flex-col items-center"
     >
-      <motion.h1 className="text-3xl xxs:text-4xl sm:text-5xl text-secondary text-center py-6 font-baskervville">
-        Our Cherished Moment
+      <motion.h1 className="text-3xl xxs:text-4xl sm:text-5xl text-[#816f5A] text-center py-6 font-baskervville">
+        Our Cherished Moments
       </motion.h1>
       <div className="flex flex-col items-center lg:pb-0 w-full lg:w-1/2 justify-center video-container mb-5">
         <iframe

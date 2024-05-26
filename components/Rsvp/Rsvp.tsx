@@ -78,7 +78,7 @@ function RSVP() {
   return (
     <div className="relative pt-0 md:pt-28">
       <div className="absolute inset-0 bg-gray-50">
-        <h1 className="text-4xl lg:text-6xl font-baskervville mb-12 font-semibold text-secondary text-center py-8 hidden md:block">
+        <h1 className="text-4xl lg:text-6xl font-baskervville mb-12 font-semibold text-[#816f5A] text-center py-8 hidden md:block">
           Holy Matrimony
         </h1>
         <div className="absolute inset-y-0 left-0 bg-gray-50" />
@@ -102,7 +102,7 @@ function RSVP() {
           </p>
           <div className="relative p-auto">
             <iframe
-              className="relative m-auto w-3/4 lg:w-[30rem] md:w-[30rem] rounded-md shadow-lg"
+              className="relative m-auto w-3/4 lg:w-[25rem] rounded-md shadow-lg"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31730.922340519137!2d106.80054131475246!3d-6.21546318789588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1663fa2ed0d%3A0x9b3784773456dfe7!2sKebayoran%20Baptist%20Church!5e0!3m2!1sen!2sid!4v1715851504856!5m2!1sen!2sid"
               height="250"
               style={{ border: 0 }}
@@ -112,7 +112,7 @@ function RSVP() {
         </div>
         <div className="lg:col-span-12 py-16  xl:col-span-3 xl:rounded-r-2xl xl:rounded-l-none lg:rounded-b-2xl lg:border px-auto">
           <div className="mx-auto">
-            <h1 className="text-3xl mx-auto lg:w-96 w-full text-center relative font-baskervville mb-8 font-semibold text-[#816F5A]">
+            <h1 className="text-3xl mx-auto lg:w-96 w-full px-2 text-center relative font-baskervville mb-8 font-semibold text-[#816F5A]">
               Holy Matrimony RSVP
             </h1>
             <form
@@ -202,7 +202,7 @@ function RSVP() {
           </div>
         </div>
       </div>
-      <h1 className="relative text-4xl lg:text-6xl font-baskervville font-semibold text-secondary text-center pt-8 hidden md:block">
+      <h1 className="relative text-4xl lg:text-6xl font-baskervville font-semibold text-[#816f5A] text-center pt-8 hidden md:block">
         Wedding Reception
       </h1>
       <div className="absolute inset-y-0 left-0 bg-gray-50" />
@@ -225,7 +225,7 @@ function RSVP() {
           </p>
           <div className="relative p-auto">
             <iframe
-              className="relative m-auto w-3/4 lg:w-[30rem] md:w-[30rem] rounded-md shadow-lg"
+              className="relative m-auto w-3/4 lg:w-[25rem] rounded-md shadow-lg"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.486547481386!2d106.84073407499025!3d-6.199359293788381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f46b1fa858ff%3A0x40b16030c217653a!2sOPEN%20Restaurant!5e0!3m2!1sen!2sid!4v1716642006606!5m2!1sen!2sid"
               height="250"
               style={{ border: 0 }}
@@ -235,7 +235,7 @@ function RSVP() {
         </div>
         <div className="lg:col-span-12 py-16 xl:col-span-3 xl:rounded-r-2xl xl:rounded-l-none lg:rounded-b-2xl lg:border px-auto">
           <div className="mx-auto">
-            <h1 className="text-3xl mx-auto lg:w-96 w-full text-center relative font-baskervville mb-8 font-semibold text-[#816F5A]">
+            <h1 className="text-3xl mx-auto lg:w-96 w-full px-2 text-center relative font-baskervville mb-8 font-semibold text-[#816F5A]">
               Wedding Reception RSVP
             </h1>
             <form
@@ -290,7 +290,7 @@ function RSVP() {
                 </div>
               </div>
               <h5 className="py-0 px-0 text-center text-base font-medium font-baskerville text-[#816F5A]">
-                Can you attend the Holy Matrimony at the Church ?
+                Can you attend the reception at the restaurant ?
               </h5>
 
               <div
