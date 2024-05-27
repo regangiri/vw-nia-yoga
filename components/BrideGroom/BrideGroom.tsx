@@ -1,66 +1,11 @@
 // import Container from '../components/Container';
 import Image from 'next/image';
-import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
-import { useEffect, useRef } from 'react';
-import { useAnimation } from 'framer-motion';
 import { ImagesStock } from '../ImageGallery/ImagesStock';
+import useBrideGroom from './hooks';
 
 export default function BrideGroom() {
-  const { ref, inView } = useInView();
-  const animation = useAnimation();
-  const brideAnimation = useAnimation();
-  const brideGroomLayout = useAnimation();
-
-  useEffect(() => {
-    if (inView) {
-      animation.start({
-        y: 0,
-        opacity: 1,
-        transition: {
-          type: 'spring',
-          duration: 2,
-          delay: 0.3,
-          bounce: 0.5,
-        },
-      });
-      brideAnimation.start({
-        y: 0,
-        opacity: 1,
-        transition: {
-          type: 'spring',
-          duration: 2,
-          delay: 0.3,
-          bounce: 0.5,
-        },
-      });
-      brideGroomLayout.start({
-        y: 0,
-        scale: 1,
-        opacity: 1,
-        transition: {
-          duration: 1,
-        },
-      });
-    }
-    if (!inView) {
-      animation.start({
-        y: -70,
-        opacity: 0,
-      });
-      brideAnimation.start({
-        y: 70,
-        opacity: 0,
-      });
-      brideGroomLayout.start({
-        y: 0,
-        scale: 0,
-        opacity: 0,
-      });
-    }
-  }, [inView]);
-
+  const { animation, brideAnimation, brideGroomLayout, ref } = useBrideGroom();
   return (
     <div className="bride-groom-section text-palewhite">
       <div>

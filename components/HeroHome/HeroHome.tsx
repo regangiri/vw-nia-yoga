@@ -1,24 +1,12 @@
-import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import Countdown from '../Countdown/Countdown';
 import { Clock } from 'phosphor-react';
+import useHeroHome from './hooks';
 
 export default function HeroHome() {
-  const [brand, setBrand] = useState(true);
-  const changeBackground = () => {
-    if (window.scrollY >= 66) {
-      setBrand(false);
-    } else {
-      setBrand(true);
-    }
-  };
-  useEffect(() => {
-    changeBackground();
-    window.addEventListener('scroll', changeBackground);
-  });
-
+  const { brand } = useHeroHome();
   return (
     <div className="relative header bg-fixed overflow-hidden h-screen text-palewhite flex justify-center ">
       <div className="relative md:pt-6 pb-16 sm:pb-24">

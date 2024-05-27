@@ -1,20 +1,8 @@
-import { useState, useEffect } from 'react';
 import Image from 'next/image';
+import useNavbar from './hooks';
 
 const Navbar = () => {
-  const [navbar, setNavbar] = useState(false);
-  const changeBackground = () => {
-    if (window.scrollY >= 66) {
-      setNavbar(true);
-    } else {
-      setNavbar(false);
-    }
-  };
-  useEffect(() => {
-    changeBackground();
-    window.addEventListener('scroll', changeBackground);
-  });
-
+  const { navbar } = useNavbar();
   if (navbar) {
     return (
       <div className="bg-primary bg-opacity-70 backdrop-filter backdrop-blur-sm sticky top-0 md:h-12 z-50 h-16 flex items-center justify-center">

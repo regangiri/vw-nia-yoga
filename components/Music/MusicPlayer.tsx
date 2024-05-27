@@ -46,7 +46,7 @@ const Play = () => {
 };
 
 export default function MusicPlayer() {
-  const { audio, handleChange, isPlaying, setIsPlaying } = useMusicPlayer();
+  const { handleChange, isPlaying } = useMusicPlayer();
 
   return (
     <div className="fixed bottom-2	right-3 text-white">
