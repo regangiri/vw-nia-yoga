@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 
 const useMusicPlayer = () => {
   const [audio] = useState<any>(
-    typeof Audio !== 'undefined' && new Audio('/musics/lovecanbe.mp3')
+    typeof Audio !== 'undefined' && new Audio('/musics/anotheryou.mp3')
   );
   const [isPlaying, setIsPlaying] = useState(true);
 

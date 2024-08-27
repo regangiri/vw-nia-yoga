@@ -72,7 +72,7 @@ function Thankyou() {
           </motion.h1>
           <motion.p
             animate={thankyouTextAnimation}
-            className="my-5 md:my-2 text-base md:text-xl font-sans text-white"
+            className="my-5 md:my-2 text-base md:text-xl font-sans text-secondary"
           >
             Your presence and blessings would bring us great honor and joy as we
             begin our new chapter.
@@ -81,16 +81,16 @@ function Thankyou() {
             animate={iconAnimation}
             className="flex items-center justify-center flex-col"
           >
-            <div className="relative w-64 h-96 items-center">
+            <div className="relative w-64 h-64 items-center">
               <Image
-                src="/images/ks-logo-white.png"
+                src="/images/ny-light-blue.png"
                 fill
                 className="object-contain"
                 alt="asd"
               />
             </div>
-            <h1 className="mt-10 text-lg sm:text-2xl text-gray-300">
-              #SHERlovewithKELV
+            <h1 className="mt-10 text-lg sm:text-2xl text-secondary">
+              #fiNIAllywithYOGA
             </h1>
           </motion.div>
         </div>

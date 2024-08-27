@@ -4,7 +4,7 @@ const supabase = createClient();
 export const getGuestData = async () => {
   try {
     const { data, error, status } = await supabase
-      .from('guestbook_kelvinsherrish_reception')
+      .from('guestbook_yogania')
       .select(`name,message`)
       .order('created_at', { ascending: false });
 
@@ -35,7 +35,7 @@ export const sendMessage = async ({
     };
 
     const { error } = await supabase
-      .from('guestbook_kelvinsherrish_reception')
+      .from('guestbook_yogania')
       .insert([addGuest]);
 
     if (error) {

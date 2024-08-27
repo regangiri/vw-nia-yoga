@@ -85,10 +85,10 @@ export default function Guestbook() {
         </div>
         <div
           className={`${
-            guestData.length > 0 ? 'block' : 'hidden lg:block'
+            guestData?.length > 0 ? 'block' : 'hidden lg:block'
           } wishes-box py-10 lg:col-span-7 lg:py-16  xl:pl-12`}
         >
-          <div className="overflow-y-scroll px-6 h-96  lg:pl-10 xl:pl-0">
+          <div className="overflow-y-scroll px-6 h-96  lg:pl-10 xl:pl-0 scrollbar-hide">
             {guestData &&
               guestData.map((guest: any, index: number) => {
                 return (

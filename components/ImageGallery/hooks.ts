@@ -88,46 +88,11 @@ const useImageGallery = () => {
       name: 'our moments',
       src: ImagesStock.ourmoment9,
     },
-    {
-      id: 10,
-      name: 'our moments',
-      src: ImagesStock.ourmoment10,
-    },
-    {
-      id: 11,
-      name: 'our moments',
-      src: ImagesStock.ourmoment11,
-    },
-    {
-      id: 12,
-      name: 'our moments',
-      src: ImagesStock.ourmoment12,
-    },
-    {
-      id: 13,
-      name: 'our moments',
-      src: ImagesStock.ourmoment13,
-    },
-    {
-      id: 14,
-      name: 'our moments',
-      src: ImagesStock.ourmoment14,
-    },
-    {
-      id: 15,
-      name: 'our moments',
-      src: ImagesStock.ourmoment15,
-    },
-    {
-      id: 16,
-      name: 'our moments',
-      src: ImagesStock.ourmoment16,
-    },
-    {
-      id: 17,
-      name: 'our moments',
-      src: ImagesStock.ourmoment17,
-    },
+    // {
+    //   id: 10,
+    //   name: 'our moments',
+    //   src: ImagesStock.ourmoment10,
+    // },
   ];
   return {
     ref,

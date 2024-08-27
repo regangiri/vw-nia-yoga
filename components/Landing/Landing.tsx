@@ -19,10 +19,10 @@ export default function Landing({ btnAction }: any) {
             opacity: 0,
           },
         }}
-        className="absolute top-0 left-2 w-12 h-24 max-w-md mx-auto sm:flex sm:justify-center justify-center"
+        className="absolute top-0 left-0 w-24 h-24 max-w-md mx-auto sm:flex sm:justify-center justify-center"
       >
         <Image
-          src="/images/ks-logo-white.png"
+          src="/images/ny-light-blue.png"
           fill
           className="object-contain"
           alt=""
@@ -71,10 +71,10 @@ export default function Landing({ btnAction }: any) {
               className="w-64 md:w-80 mt-7 max-w-lg mx-auto sm:flex sm:justify-center justify-center md:mt-8"
             >
               <span className="text-6xl lg:text-7xl font-baskervville tracking-wider">
-                Kelvin & Sherrish
+                Nia & Yoga
               </span>
             </motion.div>
-            <motion.p
+            {/* <motion.p
               animate="visible"
               initial="hidden"
               variants={{
@@ -91,7 +91,7 @@ export default function Landing({ btnAction }: any) {
               className="mt-4 text-white font-bold tracking-widest text-sm lg:text-xl font-baskervville"
             >
               Valid for 2 people
-            </motion.p>
+            </motion.p> */}
             <motion.div
               animate="visible"
               initial="hidden"

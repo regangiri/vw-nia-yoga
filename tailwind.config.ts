@@ -14,8 +14,8 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       colors: {
-        primary: '#b39b77',
-        secondary: '#DFDDBE',
+        primary: '#4B6272',
+        secondary: '#D2E4E8',
         accent: '#A59482',
         palewhite: '#F6F6F6',
         choco: '#7C8996',
@@ -28,6 +28,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [require('tailwind-scrollbar-hide')],
 };
 export default config;

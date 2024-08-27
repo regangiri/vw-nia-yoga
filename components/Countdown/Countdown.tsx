@@ -3,7 +3,7 @@ import shortid from 'shortid';
 import { Link } from 'react-scroll';
 
 function calculateTimeLeft() {
-  const difference = +new Date(`2024/07/27 18:30`) - +new Date();
+  const difference = +new Date(`2024/11/02 12:00`) - +new Date();
   let timeLeft = {};
   if (difference > 0) {
     timeLeft = {
@@ -82,11 +82,11 @@ export default function Countdown() {
           <h3 className="font-typography text-3xl text-palewhite lg:text-5xl">
             Today is the day !
           </h3>
-          <Link to="livestream-target" spy={true} smooth={true} duration={1000}>
-            <p className="p-5 border-2 text-center text-palewhite border-secondary bg-secondary ring-secondary ring-0 rounded-md font-bold text-lg  sm:text-2xl mt-3 font-serif">
+          {/* <Link to="livestream-target" spy={true} smooth={true} duration={1000}>
+            <p className="p-5 border-2 text-center text-primary border-secondary bg-secondary ring-secondary ring-0 rounded-md font-bold text-lg  sm:text-2xl mt-3 font-serif cursor-pointer">
               Watch Livestream
             </p>
-          </Link>
+          </Link> */}
         </div>
       )}
     </div>

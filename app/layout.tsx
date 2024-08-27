@@ -22,8 +22,8 @@ const baskervville = Baskervville({
 });
 
 export const metadata: Metadata = {
-  title: 'Kelvin Sherrish Wedding Invitation',
-  description: 'Kelvin Sherrish Wedding Invitation',
+  title: 'Nia and Yoga Wedding Invitation',
+  description: 'Nia and Yoga Wedding Invitation',
 };
 
 export default function RootLayout({
@@ -34,7 +34,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${roboto_mono.variable} ${inter.variable} ${baskervville.variable}`}
+      className={`${roboto_mono.variable} ${inter.variable} ${baskervville.variable} scrollbar-hide`}
     >
       <body>{children}</body>
     </html>

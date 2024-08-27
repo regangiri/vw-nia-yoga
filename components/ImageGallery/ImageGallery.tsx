@@ -22,25 +22,18 @@ export default function ImageGallery() {
       ref={ref}
       className="w-full bg-palewhite pb-6 overlflow-hidden text-md text-center flex flex-col items-center"
     >
-      <motion.h1 className="text-3xl xxs:text-4xl sm:text-5xl text-[#816f5A] text-center py-6 font-baskervville">
+      <motion.h1 className="text-3xl xxs:text-4xl sm:text-5xl text-primary text-center py-6 font-baskervville">
         Our Cherished Moments
       </motion.h1>
-      <div className="flex flex-col items-center lg:pb-0 w-full lg:w-1/2 justify-center video-container mb-5">
-        <iframe
-          className="relative m-auto w-full  rounded-md shadow-lg"
-          src="https://www.youtube.com/embed/xh0EdUg0Lgk?si=qQ3OrrZ54KMVs0Re"
-          height="500"
-          // width="600"
-          style={{ border: 0 }}
-          loading="lazy"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        ></iframe>
-      </div>
-      <motion.div className="images-container relative w-full gap-1 md:gap-3 columns-4">
+
+      <motion.div className="images-container relative w-full gap-1 md:gap-3 lg:gap-0 columns-3">
         {images.map((image, index) => {
           return (
             <Image
               key={image.id}
+              style={{
+                aspectRatio: index % 2 === 0 ? '1 / 1.5' : '1/1',
+              }}
               width={500}
               height={500}
               src={image.src}
