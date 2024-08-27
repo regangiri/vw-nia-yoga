@@ -37,8 +37,8 @@ export default function Home() {
       <Gift />
       <Guestbook />
       <ImageGallery />
-      <MusicPlayer />
       <Thankyou />
+      <MusicPlayer />
     </div>
   );
 }
