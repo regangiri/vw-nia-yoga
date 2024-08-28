@@ -20,7 +20,7 @@ const Gift = () => {
         >
           Gift
         </h1>
-        <span className="font-sans text-xl text-primary">
+        <span className="font-sans text-xl text-primary pb-4">
           In our day of love, your presence is a present for us!
         </span>
         <span className="font-sans text-base pb-24 text-primary">
@@ -29,12 +29,12 @@ const Gift = () => {
         </span>
         <motion.div className="flex flex-col sm:flex-row items-center justify-center gap-4 lg:gap-36 w-full text-primary">
           <div className="flex flex-col text-lg mb-8 md:mb-0">
-            <span>BNI a.n. Hizkia Yoga Wicaksana</span>
-            <span>0776860962</span>
-          </div>
-          <div className="flex flex-col text-lg">
             <span>BCA a.n. Advenia Pratiwi Cintya</span>
             <span>5485095184</span>
+          </div>
+          <div className="flex flex-col text-lg">
+            <span>BNI a.n. Hizkia Yoga Wicaksana</span>
+            <span>0776860962</span>
           </div>
         </motion.div>
       </div>

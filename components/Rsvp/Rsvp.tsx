@@ -98,7 +98,7 @@ function RSVP() {
           <div className="relative p-auto">
             <iframe
               className="relative m-auto w-3/4 lg:w-[25rem] rounded-md shadow-lg"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31730.922340519137!2d106.80054131475246!3d-6.21546318789588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1663fa2ed0d%3A0x9b3784773456dfe7!2sKebayoran%20Baptist%20Church!5e0!3m2!1sen!2sid!4v1715851504856!5m2!1sen!2sid"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.101652313216!2d107.00958247499064!3d-6.250334693738102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698e9044f11f2d%3A0x720d2090cb8963be!2sSaint%20Arnold%20Janssen%20Catholic%20Church!5e0!3m2!1sen!2sid!4v1724849299788!5m2!1sen!2sid"
               height="250"
               style={{ border: 0 }}
               loading="lazy"
