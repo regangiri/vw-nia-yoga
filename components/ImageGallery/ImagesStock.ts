@@ -48,7 +48,7 @@ export const ImagesStock = {
   groom:
     'https://res.cloudinary.com/karuna-wedding-org/image/upload/v1724689273/yogaNia/DSC_9226_-_Yoga.jpg',
   bride:
-    'https://res.cloudinary.com/karuna-wedding-org/image/upload/v1724689271/yogaNia/DSC_9612_-_Nia.jpg',
+    'https://res.cloudinary.com/karuna-wedding-org/image/upload/v1725034256/yogaNia/nyaha_otrsyu.jpg',
   qris: 'https://res.cloudinary.com/karuna-wedding-org/image/upload/v1654249039/harrisYohana/qr_harris_crop_bezkwk.jpg',
   logoWhite:
     'https://res.cloudinary.com/karuna-wedding-org/image/upload/v1642525535/logo-white_wzpdft.png',

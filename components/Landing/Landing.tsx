@@ -74,24 +74,6 @@ export default function Landing({ btnAction }: any) {
                 Nia & Yoga
               </span>
             </motion.div>
-            {/* <motion.p
-              animate="visible"
-              initial="hidden"
-              variants={{
-                visible: {
-                  opacity: 1,
-                  transition: {
-                    duration: 2,
-                  },
-                },
-                hidden: {
-                  opacity: 0,
-                },
-              }}
-              className="mt-4 text-white font-bold tracking-widest text-sm lg:text-xl font-baskervville"
-            >
-              Valid for 2 people
-            </motion.p> */}
             <motion.div
               animate="visible"
               initial="hidden"
@@ -106,10 +88,10 @@ export default function Landing({ btnAction }: any) {
                   opacity: 0,
                 },
               }}
-              className="mt-1 max-w-md mx-auto b sm:flex sm:justify-center justify-center md:mt-12"
+              className="mt-5 max-w-md mx-auto b sm:flex sm:justify-center justify-center md:mt-12"
             >
               <div
-                className="rounded-md  flex justify-center"
+                className="rounded-md flex justify-center"
                 onClick={btnAction}
               >
                 <a className="md:w-full lg:w-full text-center w-64 flex items-center space-x-4 justify-center px-8 py-3  border border-accent  backdrop-blur-md text-base font-medium rounded-md text-white  hover:bg-white hover:text-black md:py-2 md:text-lg md:px-10 cursor-pointer font-sans">

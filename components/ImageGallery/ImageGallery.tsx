@@ -26,13 +26,13 @@ export default function ImageGallery() {
         Our Cherished Moments
       </motion.h1>
 
-      <motion.div className="images-container relative w-full gap-1 md:gap-3 lg:gap-0 columns-3">
+      <motion.div className="images-container relative w-full gap-1 md:gap-3 lg:gap-2 columns-3">
         {images.map((image, index) => {
           return (
             <Image
               key={image.id}
               style={{
-                aspectRatio: index % 2 === 0 ? '1 / 1.5' : '1/1',
+                aspectRatio: index % 2 === 0 ? '1 / 1.5' : '1.3/1.8',
               }}
               width={500}
               height={500}
