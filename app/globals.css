@@ -55,8 +55,7 @@ html {
 }
 .our-story-container {
   position: relative;
-  background:
-    linear-gradient(rgba(14, 13, 13, 0.727), rgba(14, 13, 13, 0.7)),
+  background: linear-gradient(rgba(14, 13, 13, 0.727), rgba(14, 13, 13, 0.7)),
     url('https://res.cloudinary.com/karuna-wedding-org/image/upload/v1654248845/harrisYohana/DSC03161-min_n39nq1.jpg')
       no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -70,15 +69,11 @@ html {
 }
 
 .text-shadow-md {
-  text-shadow:
-    0 4px 8px rgba(0, 0, 0, 0.12),
-    0 2px 4px rgba(0, 0, 0, 0.08);
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.08);
 }
 
 .text-shadow-lg {
-  text-shadow:
-    0 15px 30px rgba(0, 0, 0, 0.11),
-    0 5px 15px rgba(0, 0, 0, 0.08);
+  text-shadow: 0 15px 30px rgba(0, 0, 0, 0.11), 0 5px 15px rgba(0, 0, 0, 0.08);
 }
 
 .text-shadow-none {
@@ -87,8 +82,7 @@ html {
 
 .thankyou-container {
   position: relative;
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.427), rgba(0, 0, 0, 0.51)),
+  background: linear-gradient(rgba(0, 0, 0, 0.427), rgba(0, 0, 0, 0.51)),
     url('https://res.cloudinary.com/karuna-wedding-org/image/upload/v1724689274/yogaNia/DSC_9689_thank_you.jpg')
       no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -99,8 +93,7 @@ html {
 
 .livestream-container {
   position: relative;
-  background:
-    linear-gradient(rgba(14, 13, 13, 0.727), rgba(14, 13, 13, 0.7)),
+  background: linear-gradient(rgba(14, 13, 13, 0.727), rgba(14, 13, 13, 0.7)),
     url('https://res.cloudinary.com/karuna-wedding-org/image/upload/v1715852181/kelvinSherrish/AFI03627_hfdglz.jpg')
       no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -132,9 +125,7 @@ html {
 .razor:before,
 .razor:after {
   height: 3px;
-  box-shadow:
-    0 -5px 0 #d9cab3,
-    0 5px 0 #d9cab3;
+  box-shadow: 0 -5px 0 #d9cab3, 0 5px 0 #d9cab3;
   border-width: 0;
   margin: 0px 50px;
 }
@@ -146,13 +137,12 @@ html {
   height: 10px;
 }
 
+.thankyou-container {
+  background-size: cover;
+  background-attachment: scroll;
+}
 @media only screen and (min-device-width: 375px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .livestream-container {
-    background-size: cover;
-    background-attachment: scroll;
-  }
-
-  .thankyou-container {
     background-size: cover;
     background-attachment: scroll;
   }
