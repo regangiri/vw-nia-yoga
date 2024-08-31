@@ -101,7 +101,7 @@ export default function BrideGroom() {
                 Hizkia Yoga Wicaksana{' '}
               </h1>
               <p className="font-baskervville text-sm md:text-sm">
-                Son of Mr. Salar (✝) & Mrs. Christina Miyarti
+                Son of Mr. Salar (†) & Mrs. Christina Miyarti
               </p>
               <div className="flex items-center justify-center my-4">
                 <svg

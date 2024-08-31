@@ -28,7 +28,7 @@ export default function Landing({ btnAction }: any) {
           alt=""
         />
       </motion.div>
-      <div className="relative pt-6 pb-16 sm:pb-24">
+      <div className="relative pt-48 pb-16 sm:pb-24">
         <main className="mt-16 mx-auto max-w-7xl px-16 sm:mt-24">
           <div className="text-center">
             <motion.h1
@@ -54,6 +54,14 @@ export default function Landing({ btnAction }: any) {
               </span>
             </motion.h1>
 
+            {/* <div className="relative w-24 h-24 ">
+              <Image
+                src="/images/ny-putih.png"
+                alt=""
+                fill
+                style={{ objectFit: 'cover' }}
+              />
+            </div> */}
             <motion.div
               animate="visible"
               initial="hidden"
@@ -68,9 +76,9 @@ export default function Landing({ btnAction }: any) {
                   opacity: 0,
                 },
               }}
-              className="w-64 md:w-80 mt-7 max-w-lg mx-auto sm:flex sm:justify-center justify-center md:mt-8"
+              className="mt-7 max-w-lg mx-auto sm:flex sm:justify-center justify-center md:mt-8"
             >
-              <span className="text-6xl lg:text-7xl font-baskervville tracking-wider">
+              <span className="text-2xl lg:text-7xl font-baskervville tracking-wider">
                 Nia & Yoga
               </span>
             </motion.div>
