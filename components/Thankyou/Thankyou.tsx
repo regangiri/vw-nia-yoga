@@ -72,7 +72,7 @@ function Thankyou() {
           </motion.h1>
           <motion.p
             animate={thankyouTextAnimation}
-            className="mb-5 mt-44 md:my-2 text-base md:text-xl font-sans text-secondary"
+            className="mb-5 mt-44 md:my-2 text-base md:text-xl font-baskervville text-secondary"
           >
             Your presence and blessings would bring us great honor and joy as we
             begin our new chapter.

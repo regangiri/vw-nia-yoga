@@ -20,10 +20,10 @@ const Gift = () => {
         >
           Gift
         </h1>
-        <span className="font-sans text-xl text-primary pb-4">
+        <span className="font-baskervville text-xl text-primary pb-4">
           In our day of love, your presence is a present for us!
         </span>
-        <span className="font-sans text-base pb-24 text-primary">
+        <span className="font-baskervville text-base pb-24 text-primary">
           If you wish to share some blessings through digital platform, we
           welcome your love with our utmost gratitude.
         </span>

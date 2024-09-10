@@ -1,8 +1,14 @@
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { EnvelopeSimpleOpen } from 'phosphor-react';
+import { useSearchParams } from 'next/navigation';
+import { toNameCase } from '@/helpers/toNameCase';
 
 export default function Landing({ btnAction }: any) {
+  const searchParams = useSearchParams();
+
+  const to = searchParams.get('to');
+
   return (
     <div className="relative landing bg-cover overflow-hidden h-screen text-white flex justify-center items-center">
       <motion.div
@@ -98,12 +104,15 @@ export default function Landing({ btnAction }: any) {
               }}
               className="mt-5 max-w-md mx-auto b sm:flex sm:justify-center justify-center md:mt-12"
             >
+              <span className="block text-palewhite xl:inline drop-shadow-xl font-semibold text-base md:text-2xl my-3 tracking-[0.2em] font-baskervville">
+                Dear, {toNameCase(to as string)}
+              </span>
               <div
                 className="rounded-md flex justify-center"
                 onClick={btnAction}
               >
-                <a className="md:w-full lg:w-full text-center w-64 flex items-center space-x-4 justify-center px-8 py-3  border border-accent  backdrop-blur-md text-base font-medium rounded-md text-white  hover:bg-white hover:text-black md:py-2 md:text-lg md:px-10 cursor-pointer font-sans">
-                  <span className="font-baskervville">Be Our Guest</span>
+                <a className="md:w-full lg:w-full text-center w-64 flex items-center space-x-4 justify-center px-8 py-3  border border-accent  backdrop-blur-md text-base font-medium rounded-md text-white  hover:bg-white hover:text-black md:py-2 md:text-lg md:px-10 cursor-pointer font-baskervville">
+                  <span className="font-baskervville">Open Invitation</span>
                   <EnvelopeSimpleOpen size={24} weight="bold" />
                 </a>
               </div>
