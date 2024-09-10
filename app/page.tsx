@@ -11,7 +11,7 @@ import MusicPlayer from '@/components/Music/MusicPlayer';
 import Navbar from '@/components/Navbar/Navbar';
 import Rsvp from '@/components/Rsvp/Rsvp';
 import Thankyou from '@/components/Thankyou/Thankyou';
-import { useState } from 'react';
+import { Suspense, useState } from 'react';
 
 export default function Home() {
   const [isLanding, setIsLanding] = useState(true);
@@ -22,9 +22,9 @@ export default function Home() {
 
   if (isLanding) {
     return (
-      <>
+      <Suspense>
         <Landing btnAction={handleClick} />
-      </>
+      </Suspense>
     );
   }
 
