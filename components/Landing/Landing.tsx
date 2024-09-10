@@ -105,7 +105,7 @@ export default function Landing({ btnAction }: any) {
               className="mt-5 max-w-md mx-auto b sm:flex sm:justify-center justify-center md:mt-12"
             >
               <span className="block text-palewhite xl:inline drop-shadow-xl font-semibold text-base md:text-2xl my-3 tracking-[0.2em] font-baskervville">
-                Dear, {toNameCase(to as string)}
+                Dear, {toNameCase(to)}
               </span>
               <div
                 className="rounded-md flex justify-center"

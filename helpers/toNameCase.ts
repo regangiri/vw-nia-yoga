@@ -1,4 +1,5 @@
-export function toNameCase(str: string) {
+export function toNameCase(str: string | null) {
+  if (str === null) return '';
   return str
     .toLowerCase()
     .split(' ')
