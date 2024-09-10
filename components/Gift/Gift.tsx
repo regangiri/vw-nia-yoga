@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import useGift from './hooks';
+import Image from 'next/image';
 
 const Gift = () => {
   const {
@@ -12,7 +13,7 @@ const Gift = () => {
   } = useGift();
 
   return (
-    <div className=" bg-palewhite px-4 pt-12 pb-24 sm:px-6 lg:px-8 w-full">
+    <div className=" bg-palewhite px-4 pt-12 pb-24 sm:px-6 lg:px-8 w-full font-baskervville">
       <div className="flex flex-col justify-center text-center">
         <h1
           //   animate={titleAnimation}
@@ -29,11 +30,27 @@ const Gift = () => {
         </span>
         <motion.div className="flex flex-col sm:flex-row items-center justify-center gap-4 lg:gap-36 w-full text-primary">
           <div className="flex flex-col text-lg mb-8 md:mb-0">
-            <span>BCA a.n. Advenia Pratiwi Cintya</span>
+            <div className="flex items-center gap-2">
+              <Image
+                src={'/images/bca-logo.png'}
+                width={50}
+                height={50}
+                alt={'bca'}
+              />
+              <span> a.n. Advenia Pratiwi Cintya</span>
+            </div>
             <span>5485095184</span>
           </div>
           <div className="flex flex-col text-lg">
-            <span>BNI a.n. Hizkia Yoga Wicaksana</span>
+            <div className="flex items-center gap-2">
+              <Image
+                src={'/images/bni-logo.png'}
+                width={50}
+                height={50}
+                alt={'bni'}
+              />
+              <span> a.n. Hizkia Yoga Wicaksana</span>
+            </div>
             <span>0776860962</span>
           </div>
         </motion.div>

@@ -34,7 +34,7 @@ export default function Landing({ btnAction }: any) {
           alt=""
         />
       </motion.div>
-      <div className="relative pt-48 pb-16 sm:pb-24">
+      <div className="relative pt-56 pb-16 sm:pb-24">
         <main className="mt-16 mx-auto max-w-7xl px-16 sm:mt-24">
           <div className="text-center">
             <motion.h1
@@ -82,12 +82,30 @@ export default function Landing({ btnAction }: any) {
                   opacity: 0,
                 },
               }}
-              className="mt-7 max-w-lg mx-auto sm:flex sm:justify-center justify-center md:mt-8"
+              className="mt-3 max-w-lg mx-auto sm:flex sm:justify-center justify-center md:mt-8"
             >
               <span className="text-2xl lg:text-7xl font-baskervville tracking-wider">
                 Nia & Yoga
               </span>
             </motion.div>
+            <motion.span
+              animate="visible"
+              initial="hidden"
+              variants={{
+                visible: {
+                  opacity: 1,
+                  transition: {
+                    duration: 2,
+                  },
+                },
+                hidden: {
+                  opacity: 0,
+                },
+              }}
+              className="block text-palewhite xl:inline drop-shadow-xl font-semibold text-base md:text-2xl mt-3 tracking-[0.2em] font-baskervville"
+            >
+              Dear, <br /> {toNameCase(to)}
+            </motion.span>
             <motion.div
               animate="visible"
               initial="hidden"
@@ -104,9 +122,6 @@ export default function Landing({ btnAction }: any) {
               }}
               className="mt-5 max-w-md mx-auto b sm:flex sm:justify-center justify-center md:mt-12"
             >
-              <span className="block text-palewhite xl:inline drop-shadow-xl font-semibold text-base md:text-2xl my-3 tracking-[0.2em] font-baskervville">
-                Dear, {toNameCase(to)}
-              </span>
               <div
                 className="rounded-md flex justify-center"
                 onClick={btnAction}

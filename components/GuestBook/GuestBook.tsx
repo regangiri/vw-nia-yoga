@@ -16,7 +16,7 @@ export default function Guestbook() {
     setShowModal,
   } = useGuestBook();
   return (
-    <div className="relative">
+    <div className="relative font-baskervville">
       <div className="absolute inset-0">
         <div className="absolute inset-y-0 left-0 w-1/2 bg-gray-50" />
       </div>

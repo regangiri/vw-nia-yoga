@@ -58,23 +58,6 @@ function RSVP() {
     }
   };
 
-  const handleSubmit = (e: any) => {
-    e.preventDefault();
-    addRSVP(name, telephone, totalGuest.value, confirmation);
-    setShowModal(true);
-    resetForm();
-  };
-  const handleSubmitReception = (e: any) => {
-    e.preventDefault();
-    addRSVPReception(
-      receptionName,
-      receptionTelephone,
-      receptionTotalGuest.value,
-      receptionConfirmation
-    );
-    setShowModal(true);
-    resetForm();
-  };
   return (
     <div className="relative">
       <div className="absolute inset-0 bg-gray-50">

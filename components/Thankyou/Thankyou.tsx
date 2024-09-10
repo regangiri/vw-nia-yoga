@@ -61,7 +61,7 @@ function Thankyou() {
   }, [inView]);
 
   return (
-    <div className="text-center text-black bg-opacity-100 flex flex-col items-center py-16 thankyou-container">
+    <div className="text-center text-black bg-opacity-100 flex flex-col items-center py-16 thankyou-container font-baskervville">
       <div>
         <div ref={ref} className="px-2">
           <motion.h1
