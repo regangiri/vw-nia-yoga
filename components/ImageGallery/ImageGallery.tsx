@@ -37,7 +37,7 @@ export default function ImageGallery() {
               width={500}
               height={500}
               src={image.src}
-              className="mb-1 md:mb-3 mx-auto"
+              className="pb-1 md:pb-3 mx-auto"
               loading="lazy"
               alt="loading"
               onClick={() => {
