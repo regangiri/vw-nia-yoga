@@ -8,13 +8,13 @@ export const ImagesStock = {
   ourmoment3:
     'https://res.cloudinary.com/karuna-wedding-org/image/upload/v1724689274/yogaNia/DSC_9382_welcome.jpg',
   ourmoment4:
-    'https://res.cloudinary.com/karuna-wedding-org/image/upload/v1724689274/yogaNia/DSC_9440.jpg',
+    'https://res.cloudinary.com/karuna-wedding-org/image/upload/v1724689272/yogaNia/DSC_9460.jpg',
   ourmoment5:
     'https://res.cloudinary.com/karuna-wedding-org/image/upload/v1724689274/yogaNia/DSC_9689_thank_you.jpg',
   ourmoment6:
-    'https://res.cloudinary.com/karuna-wedding-org/image/upload/v1724689272/yogaNia/DSC_9881.jpg',
+    'https://res.cloudinary.com/karuna-wedding-org/image/upload/v1724689274/yogaNia/DSC_9440.jpg',
   ourmoment7:
-    'https://res.cloudinary.com/karuna-wedding-org/image/upload/v1724689272/yogaNia/DSC_9460.jpg',
+    'https://res.cloudinary.com/karuna-wedding-org/image/upload/v1724689272/yogaNia/DSC_9881.jpg',
   ourmoment8:
     'https://res.cloudinary.com/karuna-wedding-org/image/upload/v1724689272/yogaNia/DSC_9900.jpg',
   ourmoment9:
