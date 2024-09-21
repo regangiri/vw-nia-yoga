@@ -31,9 +31,6 @@ export default function ImageGallery() {
           return (
             <Image
               key={image.id}
-              style={{
-                aspectRatio: index % 2 === 0 ? '1 / 1.5' : '1.3/1.8',
-              }}
               width={500}
               height={500}
               src={image.src}
